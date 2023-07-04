@@ -58,7 +58,7 @@
     <section class="section is-main-section">
 
       <card-component class="has-table has-mobile-sort-spaced">
-        <casing-accesories-table :data-url="`${$router.options.base}data-sources/Warehouse/bit.json`" :checkable="true"/>
+        <bit-table :data-url="`${$router.options.base}data-sources/Warehouse/bit.json`" :checkable="true"/>
       </card-component>
 
     </section>
@@ -66,12 +66,12 @@
 </template>
 
 <script>
-import CasingAccesoriesTable from '@/components/Warehouse/BitTable'
+import BitTable from '@/components/Warehouse/BitTable'
 import CardComponent from '@/components/CardComponent'
 import HeroBar from '@/components/HeroBar'
 
 export default {
   name: 'Tables',
-  components: { HeroBar, CardComponent, CasingAccesoriesTable }
+  components: { HeroBar, CardComponent, BitTable }
 }
 </script>
