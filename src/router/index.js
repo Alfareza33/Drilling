@@ -41,6 +41,14 @@ const routes = [
   },
   {
     meta: {
+      title: 'Edit Item'
+    },
+    path: '/EditItem',
+    name: 'edit item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/Casingedit.vue')
+  },
+  {
+    meta: {
       title: 'Login'
     },
     path: '/login',
