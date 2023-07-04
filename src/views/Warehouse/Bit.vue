@@ -58,7 +58,7 @@
     <section class="section is-main-section">
 
       <card-component class="has-table has-mobile-sort-spaced">
-        <casing-accesories-table :data-url="`${$router.options.base}data-sources/Warehouse/casing.json`" :checkable="true"/>
+        <casing-accesories-table :data-url="`${$router.options.base}data-sources/Warehouse/bit.json`" :checkable="true"/>
       </card-component>
 
     </section>

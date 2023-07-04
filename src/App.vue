@@ -38,6 +38,10 @@ export default {
               {
                 href: '#/warehouse/casingaccesories',
                 label: 'Casing Accesories'
+              },
+              {
+                href: '#/warehouse/bit',
+                label: 'Bit'
               }
             ]
           },
