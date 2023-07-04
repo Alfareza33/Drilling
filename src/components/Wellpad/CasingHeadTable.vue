@@ -10,42 +10,32 @@
       :hoverable="true"
       default-sort="name"
       :data="clients">
-      <b-table-column custom-key="actions" cell-class="is-actions-cell" v-slot="props">
-        <div class="buttons is-left">
-          <router-link to="/EditItem" class="button is-small is-primary">
-            <b-icon icon="account-edit" size="is-small"/>
-          </router-link>
-          <button class="button is-small is-danger" type="button" @click.prevent="trashModal(props.row)">
-            <b-icon icon="trash-can" size="is-small"/>
-          </button>
-        </div>
-      </b-table-column>
       <b-table-column label="ID" field="id" sortable v-slot="props">
         {{ props.row.id }}
       </b-table-column>
-      <b-table-column label="Size" field="size" sortable v-slot="props">
+      <b-table-column label="Sub Category" field="sub_category" sortable v-slot="props">
         {{ props.row.size }}
       </b-table-column>
-      <b-table-column label="Grade" field="grade" sortable v-slot="props">
-        {{ props.row.grade }}
+      <b-table-column label="Casing head size" field="casing_head_size" sortable v-slot="props">
+        {{ props.row.casing_head_size }}
       </b-table-column>
-      <b-table-column label="Pounder" field="pounder" sortable v-slot="props">
-        {{ props.row.pounder }}
+      <b-table-column label="Top Connection Type and Size" field="top_connection_type_and_size" sortable v-slot="props">
+        {{ props.row.top_connection_type_and_size }}
       </b-table-column>
-      <b-table-column label="Blank or perforated" field="bop" sortable v-slot="props">
-        {{ props.row.bop }}
+      <b-table-column label="Bottom Connection Type and Size" field="bottom_connection_type_and_size" sortable v-slot="props">
+        {{ props.row.bottom_connection_type_and_size }}
       </b-table-column>
-      <b-table-column label="Welding" field="welding" sortable v-slot="props">
-        {{ props.row.welding }}
+      <b-table-column label="Side Connection Type and Size" field="side_connection_type_and_size" sortable v-slot="props">
+        {{ props.row.side_connection_type_and_size }}
       </b-table-column>
-      <b-table-column label="Range" field="range" sortable v-slot="props">
-        {{ props.row.range }}
+      <b-table-column label="Prewelded Casing Connection" field="prewelded_casing_connection" sortable v-slot="props">
+        {{ props.row.prewelded_casing_connection }}
       </b-table-column>
-      <b-table-column label="Remarks" field="remarks" sortable v-slot="props">
+      <b-table-column label="length of prewelded casing" field="length_of_prewelded_casing" sortable v-slot="props">
+        {{ props.row.length_of_prewelded_casing }}
+      </b-table-column>
+      <b-table-column label="remarks" field="remarks" sortable v-slot="props">
         {{ props.row.remarks }}
-      </b-table-column>
-      <b-table-column label="Connection" field="connection" sortable v-slot="props">
-        {{ props.row.connection }}
       </b-table-column>
     </b-table>
   </div>

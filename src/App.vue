@@ -36,8 +36,20 @@ export default {
                 label: 'Casing'
               },
               {
-                href: '#/warehouse/casingaccesories',
-                label: 'Casing Accesories'
+                href: '#/warehouse/others',
+                label: 'Others'
+              },
+              {
+                href: '#/warehouse/xo',
+                label: 'XO'
+              },
+              {
+                href: '#/warehouse/screen',
+                label: 'Screen'
+              },
+              {
+                href: '#/warehouse/casinghead',
+                label: 'Casing Head'
               }
             ]
           },
@@ -51,8 +63,20 @@ export default {
                 label: 'Casing'
               },
               {
-                href: '#/wellpad/casingaccesories',
-                label: 'Casing Accesories'
+                href: '#/wellpad/others',
+                label: 'Others'
+              },
+              {
+                href: '#/wellpad/xo',
+                label: 'XO'
+              },
+              {
+                href: '#/wellpad/screen',
+                label: 'Screen'
+              },
+              {
+                href: '#/wellpad/casinghead',
+                label: 'Casing Head'
               }
             ]
           },

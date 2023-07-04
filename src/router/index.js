@@ -82,11 +82,20 @@ const routes = [
   },
   {
     meta: {
-      title: 'Casing Accesories'
+      title: 'Others'
     },
-    path: '/warehouse/casingaccesories',
-    name: 'casing',
-    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/CasingAccesories.vue'),
+    path: '/warehouse/others',
+    name: 'Others',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Others.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Others'
+    },
+    path: '/wellpad/others',
+    name: 'Others',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Others.vue'),
     props: true
   },
   {
@@ -100,11 +109,56 @@ const routes = [
   },
   {
     meta: {
-      title: 'Casing Accesories'
+      title: 'XO'
     },
-    path: '/wellpad/casingaccesories',
+    path: '/wellpad/xo',
     name: 'casing',
-    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/CasingAccesories.vue'),
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Xo.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'XO'
+    },
+    path: '/warehouse/xo',
+    name: 'casing',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Xo.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Screen'
+    },
+    path: '/warehouse/screen',
+    name: 'Screen',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Screen.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Screen'
+    },
+    path: '/wellpad/screen',
+    name: 'Screen',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Screen.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Casing Head'
+    },
+    path: '/warehouse/casinghead',
+    name: 'Casing Head',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Casinghead.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Casing Head'
+    },
+    path: '/wellpad/casinghead',
+    name: 'Casing Head',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Casinghead.vue'),
     props: true
   }
 ]
