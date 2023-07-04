@@ -100,6 +100,15 @@ const routes = [
   },
   {
     meta: {
+      title: 'Bit'
+    },
+    path: '/warehouse/bit',
+    name: 'wbit',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Bit.vue'),
+    props: true
+  },
+  {
+    meta: {
       title: 'Casing'
     },
     path: '/wellpad/casing',

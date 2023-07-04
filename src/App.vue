@@ -36,6 +36,7 @@ export default {
                 label: 'Casing'
               },
               {
+<<<<<<< HEAD
                 href: '#/warehouse/others',
                 label: 'Others'
               },
@@ -50,6 +51,14 @@ export default {
               {
                 href: '#/warehouse/casinghead',
                 label: 'Casing Head'
+=======
+                href: '#/warehouse/casingaccesories',
+                label: 'Casing Accesories'
+              },
+              {
+                href: '#/warehouse/bit',
+                label: 'Bit'
+>>>>>>> 0cee6f99e2438f2913ec190c051201145dcfec3f
               }
             ]
           },
