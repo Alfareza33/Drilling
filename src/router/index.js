@@ -119,6 +119,15 @@ const routes = [
   },
   {
     meta: {
+      title: 'Bit Breaker and Ring Gauge'
+    },
+    path: '/warehouse/bitbreakerandringgauge',
+    name: 'Bit Breaker and Ring Gauge',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/BitBreakerandRingGauge.vue'),
+    props: true
+  },
+  {
+    meta: {
       title: 'Screen'
     },
     path: '/warehouse/screen',
@@ -197,6 +206,15 @@ const routes = [
     path: '/wellpad/bit',
     name: 'Bit',
     component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Bit.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Bit Breaker and Ring Gauge'
+    },
+    path: '/wellpad/bitbreakerandringgauge',
+    name: 'Bit',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/BitBreakerandRingGauge.vue'),
     props: true
   },
   {

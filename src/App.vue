@@ -52,6 +52,10 @@ export default {
                 label: 'Bit'
               },
               {
+                href: '#/warehouse/bitbreakerandringgauge',
+                label: 'Bit Breaker and Ring Gauge'
+              },
+              {
                 href: '#/warehouse/screen',
                 label: 'Screen'
               },
@@ -93,6 +97,10 @@ export default {
               {
                 href: '#/wellpad/bit',
                 label: 'Bit'
+              },
+              {
+                href: '#/wellpad/bitbreakerandringgauge',
+                label: 'Bit Breaker and Ring Gauge'
               },
               {
                 href: '#/wellpad/screen',
