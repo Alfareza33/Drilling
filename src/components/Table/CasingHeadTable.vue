@@ -21,7 +21,7 @@
         {{ props.row.id }}
       </b-table-column>
       <b-table-column label="Sub Category" field="sub_category" sortable v-slot="props">
-        {{ props.row.size }}
+        {{ props.row.sub_category }}
       </b-table-column>
       <b-table-column label="Casing head size" field="casing_head_size" sortable v-slot="props">
         {{ props.row.casing_head_size }}
