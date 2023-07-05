@@ -71,6 +71,7 @@ const routes = [
     name: 'profile',
     component: () => import(/* webpackChunkName: "profile" */ '../views/Profile.vue')
   },
+  // Warehouse section
   {
     meta: {
       title: 'Casing'
@@ -78,6 +79,15 @@ const routes = [
     path: '/warehouse/casing',
     name: 'casing',
     component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Casing.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Casing Accesories'
+    },
+    path: '/warehouse/casingaccesories',
+    name: 'Casing Accesories',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/CasingAccesories.vue'),
     props: true
   },
   {
@@ -91,47 +101,11 @@ const routes = [
   },
   {
     meta: {
-      title: 'Others'
+      title: 'Wellhead'
     },
-    path: '/wellpad/others',
-    name: 'Others',
-    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Others.vue'),
-    props: true
-  },
-  {
-    meta: {
-      title: 'Bit'
-    },
-    path: '/warehouse/bit',
-    name: 'wbit',
-    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Bit.vue'),
-    props: true
-  },
-  {
-    meta: {
-      title: 'Casing'
-    },
-    path: '/wellpad/casing',
-    name: 'casing',
-    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Casing.vue'),
-    props: true
-  },
-  {
-    meta: {
-      title: 'XO'
-    },
-    path: '/wellpad/xo',
-    name: 'casing',
-    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Xo.vue'),
-    props: true
-  },
-  {
-    meta: {
-      title: 'XO'
-    },
-    path: '/warehouse/xo',
-    name: 'casing',
-    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Xo.vue'),
+    path: '/warehouse/wellhead',
+    name: 'Wellhead',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Wellhead.vue'),
     props: true
   },
   {
@@ -145,6 +119,61 @@ const routes = [
   },
   {
     meta: {
+      title: 'XO'
+    },
+    path: '/warehouse/xo',
+    name: 'casing',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Xo.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Casing Head'
+    },
+    path: '/warehouse/casinghead',
+    name: 'Casing Head',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Casinghead.vue'),
+    props: true
+  },
+  // Wellpad section
+  {
+    meta: {
+      title: 'Casing'
+    },
+    path: '/wellpad/casing',
+    name: 'casing',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Casing.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Casing Accesories'
+    },
+    path: '/wellpad/casingaccesories',
+    name: 'Casing Accesories',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/CasingAccesories.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Others'
+    },
+    path: '/wellpad/others',
+    name: 'Others',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Others.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Wellhead'
+    },
+    path: '/wellpad/wellhead',
+    name: 'Wellhead',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Wellhead.vue'),
+    props: true
+  },
+  {
+    meta: {
       title: 'Screen'
     },
     path: '/wellpad/screen',
@@ -154,11 +183,11 @@ const routes = [
   },
   {
     meta: {
-      title: 'Casing Head'
+      title: 'XO'
     },
-    path: '/warehouse/casinghead',
-    name: 'Casing Head',
-    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Casinghead.vue'),
+    path: '/wellpad/xo',
+    name: 'casing',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Xo.vue'),
     props: true
   },
   {

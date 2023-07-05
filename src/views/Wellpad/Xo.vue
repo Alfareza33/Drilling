@@ -53,7 +53,7 @@
     <section class="section is-main-section">
 
       <card-component class="has-table has-mobile-sort-spaced">
-        <others-table :data-url="`${$router.options.base}data-sources/Warehouse/others.json`" :checkable="true"/>
+        <xo-table :data-url="`${$router.options.base}data-sources/Wellpad/xo.json`" :checkable="true"/>
       </card-component>
 
     </section>
@@ -61,12 +61,12 @@
 </template>
 
 <script>
-import OthersTable from '@/components/Warehouse/OthersTable'
+import XoTable from '@/components/Warehouse/XoTable'
 import CardComponent from '@/components/CardComponent'
 import HeroBar from '@/components/HeroBar'
 
 export default {
   name: 'Tables',
-  components: { HeroBar, CardComponent, OthersTable }
+  components: { HeroBar, CardComponent, XoTable }
 }
 </script>

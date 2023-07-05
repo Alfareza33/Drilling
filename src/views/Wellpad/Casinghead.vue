@@ -53,7 +53,7 @@
     <section class="section is-main-section">
 
       <card-component class="has-table has-mobile-sort-spaced">
-        <casing-head-table :data-url="`${$router.options.base}data-sources/Wellpad/casing.json`" :checkable="true"/>
+        <casing-head-table :data-url="`${$router.options.base}data-sources/Wellpad/casinghead.json`" :checkable="true"/>
       </card-component>
 
     </section>

@@ -10,6 +10,13 @@
       :hoverable="true"
       default-sort="name"
       :data="clients">
+      <b-table-column custom-key="actions" cell-class="is-actions-cell" v-slot="props">
+        <div class="buttons is-left">
+          <button class="button is-small is-danger" type="button" @click.prevent="trashModal(props.row)">
+            <b-icon icon="trash-can" size="is-small"/>
+          </button>
+        </div>
+      </b-table-column>
       <b-table-column label="ID" field="id" sortable v-slot="props">
         {{ props.row.id }}
       </b-table-column>

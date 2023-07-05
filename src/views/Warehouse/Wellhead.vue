@@ -1,7 +1,7 @@
 <template>
   <div>
     <hero-bar>
-      Casing Head
+      Wellhead
     </hero-bar>
       <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
@@ -53,7 +53,7 @@
     <section class="section is-main-section">
 
       <card-component class="has-table has-mobile-sort-spaced">
-        <casing-head-table :data-url="`${$router.options.base}data-sources/Warehouse/casinghead.json`" :checkable="true"/>
+        <wellhead-table :data-url="`${$router.options.base}data-sources/Warehouse/wellhead.json`" :checkable="true"/>
       </card-component>
 
     </section>
@@ -61,12 +61,12 @@
 </template>
 
 <script>
-import CasingHeadTable from '@/components/Warehouse/CasingHeadTable'
+import WellheadTable from '@/components/Wellpad/WellheadTable'
 import CardComponent from '@/components/CardComponent'
 import HeroBar from '@/components/HeroBar'
 
 export default {
   name: 'Tables',
-  components: { HeroBar, CardComponent, CasingHeadTable }
+  components: { HeroBar, CardComponent, WellheadTable }
 }
 </script>

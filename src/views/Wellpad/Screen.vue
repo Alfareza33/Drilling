@@ -53,7 +53,7 @@
     <section class="section is-main-section">
 
       <card-component class="has-table has-mobile-sort-spaced">
-        <screen-table :data-url="`${$router.options.base}data-sources/Warehouse/others.json`" :checkable="true"/>
+        <screen-table :data-url="`${$router.options.base}data-sources/Wellpad/screen.json`" :checkable="true"/>
       </card-component>
 
     </section>

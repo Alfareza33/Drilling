@@ -1,7 +1,7 @@
 <template>
   <div>
     <hero-bar>
-      Bit
+      Wellhead
     </hero-bar>
       <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
@@ -40,11 +40,6 @@
               </div>
             </div>
           </div>
-          <router-link to="/AddItem">
-          <div class="navbar-item">
-            <button class="button is-primary">Add item</button>
-          </div>
-        </router-link>
         </div>
       </div>
     </nav>
@@ -58,7 +53,7 @@
     <section class="section is-main-section">
 
       <card-component class="has-table has-mobile-sort-spaced">
-        <bit-table :data-url="`${$router.options.base}data-sources/Warehouse/bit.json`" :checkable="true"/>
+        <wellhead-table :data-url="`${$router.options.base}data-sources/Wellpad/wellhead.json`" :checkable="true"/>
       </card-component>
 
     </section>
@@ -66,12 +61,12 @@
 </template>
 
 <script>
-import BitTable from '@/components/Warehouse/BitTable'
+import WellheadTable from '@/components/Wellpad/WellheadTable'
 import CardComponent from '@/components/CardComponent'
 import HeroBar from '@/components/HeroBar'
 
 export default {
   name: 'Tables',
-  components: { HeroBar, CardComponent, BitTable }
+  components: { HeroBar, CardComponent, WellheadTable }
 }
 </script>

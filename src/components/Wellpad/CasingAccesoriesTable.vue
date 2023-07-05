@@ -20,35 +20,14 @@
           </button>
         </div>
       </b-table-column>
+      <b-table-column label="Item name" field="item" sortable v-slot="props">
+        {{ props.row.item }}
+      </b-table-column>
       <b-table-column label="Size" field="size" sortable v-slot="props">
         {{ props.row.size }}
       </b-table-column>
-      <b-table-column label="Manufacturer" field="manufacturer" sortable v-slot="props">
-        {{ props.row.manufacturer }}
-      </b-table-column>
-      <b-table-column label="Type" field="type" sortable v-slot="props">
-        {{ props.row.type }}
-      </b-table-column>
-      <b-table-column label="IADC Code" field="iadc_code" sortable v-slot="props">
-        {{ props.row.iadc_code }}
-      </b-table-column>
-      <b-table-column label="Bit Code" field="bit_code" sortable v-slot="props">
-        {{ props.row.bit_code }}
-      </b-table-column>
-      <b-table-column label="Rock Bit or Mill Tooth" field="rock_bit_or_mill_tooth" sortable v-slot="props">
-        {{ props.row.rock_bit_or_mill_tooth }}
-      </b-table-column>
-      <b-table-column label="Nozzle Information" field="nozzle_information" sortable v-slot="props">
-        {{ props.row.nozzle_information }}
-      </b-table-column>
-      <b-table-column label="Remarks" field="remarks" sortable v-slot="props">
-        {{ props.row.remarks }}
-      </b-table-column>
-      <b-table-column label="New or Used" field="new_or_used" sortable v-slot="props">
-        {{ props.row.new_or_used }}
-      </b-table-column>
-      <b-table-column label="Serial Number" field="serial_number" sortable v-slot="props">
-        {{ props.row.serial_number }}
+      <b-table-column label="Grade" field="grade" sortable v-slot="props">
+        {{ props.row.grade }}
       </b-table-column>
     </b-table>
   </div>
