@@ -53,7 +53,7 @@ import axios from 'axios'
 import ModalBox from '@/components/ModalBox'
 
 export default {
-  name: 'CasingTable',
+  name: 'Casing Head Table',
   components: { ModalBox },
   props: {
     dataUrl: {

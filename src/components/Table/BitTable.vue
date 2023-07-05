@@ -9,7 +9,7 @@
       :striped="true"
       :hoverable="true"
       default-sort="name"
-      :data="clients">
+      :data="clients" >
       <b-table-column custom-key="actions" cell-class="is-actions-cell" v-slot="props">
         <div class="buttons is-left">
           <router-link to="/EditItem" class="button is-small is-primary">
@@ -20,26 +20,35 @@
           </button>
         </div>
       </b-table-column>
-      <b-table-column label="ID" field="id" sortable v-slot="props">
-        {{ props.row.id }}
-      </b-table-column>
-      <b-table-column label="Unit" field="unit" sortable v-slot="props">
-        {{ props.row.unit }}
-      </b-table-column>
-      <b-table-column label="Manufacturer" field="manufacturer" sortable v-slot="props">
-        {{ props.row.manufacturer }}
-      </b-table-column>
-      <b-table-column label="type" field="type" sortable v-slot="props">
-        {{ props.row.type }}
-      </b-table-column>
-      <b-table-column label="Api" field="api" sortable v-slot="props">
-        {{ props.row.api }}
-      </b-table-column>
       <b-table-column label="Size" field="size" sortable v-slot="props">
         {{ props.row.size }}
       </b-table-column>
-      <b-table-column label="Remarks" field="remarks" sortable v-slot="props">
+      <b-table-column label="Maufacturer" field="manufacturer" sortable v-slot="props">
+        {{ props.row.manufacturer }}
+      </b-table-column>
+      <b-table-column label="Type" field="type" sortable v-slot="props">
+        {{ props.row.type }}
+      </b-table-column>
+      <b-table-column label="iadc Code" field="iadc_code" sortable v-slot="props">
+        {{ props.row.iadc_code }}
+      </b-table-column>
+      <b-table-column label="Bit Code" field="bit_code" sortable v-slot="props">
+        {{ props.row.bit_code }}
+      </b-table-column>
+      <b-table-column label="Rock Bit or Mill tooth" field="rock_bit_or_mill_tooth" sortable v-slot="props">
+        {{ props.row.rock_bit_or_mill_tooth }}
+      </b-table-column>
+      <b-table-column label="nozzle information" field="nozzle_information" sortable v-slot="props">
+        {{ props.row.nozzle_information }}
+      </b-table-column>
+      <b-table-column label="remarks" field="remarks" sortable v-slot="props">
         {{ props.row.remarks }}
+      </b-table-column>
+      <b-table-column label="new or used" field="new_or_used" sortable v-slot="props">
+        {{ props.row.new_or_used }}
+      </b-table-column>
+      <b-table-column label="serial number" field="serial_number" sortable v-slot="props">
+        {{ props.row.serial_number }}
       </b-table-column>
     </b-table>
   </div>
@@ -50,7 +59,7 @@ import axios from 'axios'
 import ModalBox from '@/components/ModalBox'
 
 export default {
-  name: 'Others Table',
+  name: 'Wellhead Table',
   components: { ModalBox },
   props: {
     dataUrl: {

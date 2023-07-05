@@ -53,7 +53,7 @@
     <section class="section is-main-section">
 
       <card-component class="has-table has-mobile-sort-spaced">
-        <casing-accesories-table :data-url="`${$router.options.base}data-sources/Wellpad/casingaccesories.json`" :checkable="true"/>
+        <casing-accesories-table :data-url="`${$router.options.base}data-sources/Warehouse/casingaccesories.json`" :checkable="true"/>
       </card-component>
 
     </section>
@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import CasingAccesoriesTable from '@/components/Wellpad/CasingAccesoriesTable'
+import CasingAccesoriesTable from '@/components/Table/CasingAccesoriesTable'
 import CardComponent from '@/components/CardComponent'
 import HeroBar from '@/components/HeroBar'
 

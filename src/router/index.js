@@ -110,11 +110,29 @@ const routes = [
   },
   {
     meta: {
+      title: 'Bit'
+    },
+    path: '/warehouse/bit',
+    name: 'Bit',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Bit.vue'),
+    props: true
+  },
+  {
+    meta: {
       title: 'Screen'
     },
     path: '/warehouse/screen',
     name: 'Screen',
     component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Screen.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Tools'
+    },
+    path: '/warehouse/tools',
+    name: 'Tools',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Tools.vue'),
     props: true
   },
   {
@@ -174,11 +192,29 @@ const routes = [
   },
   {
     meta: {
+      title: 'Bit'
+    },
+    path: '/wellpad/bit',
+    name: 'Bit',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Bit.vue'),
+    props: true
+  },
+  {
+    meta: {
       title: 'Screen'
     },
     path: '/wellpad/screen',
     name: 'Screen',
     component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Screen.vue'),
+    props: true
+  },
+  {
+    meta: {
+      title: 'Tools'
+    },
+    path: '/wellpad/tools',
+    name: 'Tools',
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Tools.vue'),
     props: true
   },
   {

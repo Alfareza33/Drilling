@@ -9,7 +9,7 @@
       :striped="true"
       :hoverable="true"
       default-sort="name"
-      :data="clients">
+      :data="clients" >
       <b-table-column custom-key="actions" cell-class="is-actions-cell" v-slot="props">
         <div class="buttons is-left">
           <router-link to="/EditItem" class="button is-small is-primary">
@@ -20,14 +20,20 @@
           </button>
         </div>
       </b-table-column>
-      <b-table-column label="Item name" field="item" sortable v-slot="props">
-        {{ props.row.item }}
+      <b-table-column label="ID" field="id" sortable v-slot="props">
+        {{ props.row.id }}
+      </b-table-column>
+      <b-table-column label="Unit" field="unit" sortable v-slot="props">
+        {{ props.row.unit }}
+      </b-table-column>
+      <b-table-column label="Sub Category" field="sub_category" sortable v-slot="props">
+        {{ props.row.sub_category }}
       </b-table-column>
       <b-table-column label="Size" field="size" sortable v-slot="props">
         {{ props.row.size }}
       </b-table-column>
-      <b-table-column label="Grade" field="grade" sortable v-slot="props">
-        {{ props.row.grade }}
+      <b-table-column label="Remarks" field="remarks" sortable v-slot="props">
+        {{ props.row.remarks }}
       </b-table-column>
     </b-table>
   </div>
@@ -38,7 +44,7 @@ import axios from 'axios'
 import ModalBox from '@/components/ModalBox'
 
 export default {
-  name: 'CasingTable',
+  name: 'Xo Table',
   components: { ModalBox },
   props: {
     dataUrl: {

@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import XoTable from '@/components/Warehouse/XoTable'
+import XoTable from '@/components/Table/XoTable'
 import CardComponent from '@/components/CardComponent'
 import HeroBar from '@/components/HeroBar'
 

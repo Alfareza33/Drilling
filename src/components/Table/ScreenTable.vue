@@ -50,7 +50,7 @@ import axios from 'axios'
 import ModalBox from '@/components/ModalBox'
 
 export default {
-  name: 'Others Table',
+  name: 'Screen Table',
   components: { ModalBox },
   props: {
     dataUrl: {

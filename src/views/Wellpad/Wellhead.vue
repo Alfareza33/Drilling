@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import WellheadTable from '@/components/Wellpad/WellheadTable'
+import WellheadTable from '@/components/Table/WellheadTable'
 import CardComponent from '@/components/CardComponent'
 import HeroBar from '@/components/HeroBar'
 

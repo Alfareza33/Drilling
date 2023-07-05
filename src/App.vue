@@ -36,13 +36,10 @@ export default {
                 label: 'Casing'
               },
               {
-<<<<<<< HEAD
                 href: '#/warehouse/casingaccesories',
                 label: 'Casing Accesories'
               },
               {
-=======
->>>>>>> f37385d426ded707315706b4bc30aa3f12b3f94f
                 href: '#/warehouse/others',
                 label: 'Others'
               },
@@ -51,29 +48,24 @@ export default {
                 label: 'Wellhead'
               },
               {
+                href: '#/warehouse/bit',
+                label: 'Bit'
+              },
+              {
                 href: '#/warehouse/screen',
                 label: 'Screen'
               },
               {
-<<<<<<< HEAD
+                href: '#/warehouse/tools',
+                label: 'Tools'
+              },
+              {
                 href: '#/warehouse/xo',
                 label: 'XO'
               },
               {
                 href: '#/warehouse/casinghead',
                 label: 'Casing Head'
-=======
-                href: '#/warehouse/casinghead',
-                label: 'Casing Head'
-              },
-              {
-                href: '#/warehouse/casingaccesories',
-                label: 'Casing Accesories'
-              },
-              {
-                href: '#/warehouse/bit',
-                label: 'Bit'
->>>>>>> f37385d426ded707315706b4bc30aa3f12b3f94f
               }
             ]
           },
@@ -99,8 +91,16 @@ export default {
                 label: 'Wellhead'
               },
               {
+                href: '#/wellpad/bit',
+                label: 'Bit'
+              },
+              {
                 href: '#/wellpad/screen',
                 label: 'Screen'
+              },
+              {
+                href: '#/wellpad/tools',
+                label: 'Tools'
               },
               {
                 href: '#/wellpad/xo',

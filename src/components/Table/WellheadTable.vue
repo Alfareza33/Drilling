@@ -9,7 +9,7 @@
       :striped="true"
       :hoverable="true"
       default-sort="name"
-      :data="clients">
+      :data="clients" >
       <b-table-column custom-key="actions" cell-class="is-actions-cell" v-slot="props">
         <div class="buttons is-left">
           <router-link to="/EditItem" class="button is-small is-primary">
@@ -38,7 +38,7 @@ import axios from 'axios'
 import ModalBox from '@/components/ModalBox'
 
 export default {
-  name: 'CasingTable',
+  name: 'Wellhead Table',
   components: { ModalBox },
   props: {
     dataUrl: {

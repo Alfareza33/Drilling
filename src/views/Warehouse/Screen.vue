@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import ScreenTable from '@/components/Warehouse/ScreenTable'
+import ScreenTable from '@/components/Table/ScreenTable'
 import CardComponent from '@/components/CardComponent'
 import HeroBar from '@/components/HeroBar'
 

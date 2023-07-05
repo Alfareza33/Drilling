@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import CasingAccesoriesTable from '@/components/Wellpad/CasingAccesoriesTable'
+import CasingAccesoriesTable from '@/components/Table/CasingAccesoriesTable'
 import CardComponent from '@/components/CardComponent'
 import HeroBar from '@/components/HeroBar'
 
