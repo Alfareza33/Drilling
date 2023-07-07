@@ -32,7 +32,7 @@
       <b-table-column label="Pounder" field="pounder" sortable v-slot="props">
         {{ props.row.pounder }}
       </b-table-column>
-      <b-table-column label="Blank or perforated" field="bop" sortable v-slot="props">
+      <b-table-column label="Blank or Perforated" field="bop" sortable v-slot="props">
         {{ props.row.bop }}
       </b-table-column>
       <b-table-column label="Welding" field="welding" sortable v-slot="props">

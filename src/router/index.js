@@ -33,14 +33,6 @@ const routes = [
   },
   {
     meta: {
-      title: 'Add Item'
-    },
-    path: '/AddItem',
-    name: 'add item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/Casingform.vue')
-  },
-  {
-    meta: {
       title: 'Edit Item'
     },
     path: '/EditItem',
@@ -159,8 +151,89 @@ const routes = [
     },
     path: '/warehouse/casinghead',
     name: 'Casing Head',
-    component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Casinghead.vue'),
+    component: () => import(/* webpackChunkName: "client-form" */ '../views/Warehouse/Casinghead.vue'),
     props: true
+  },
+  // This is the section of Add Item of Warehouse list
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/casing/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/Casing.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/casingaccesories/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/CasingAccesories.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/others/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/Others.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/wellhead/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/Wellhead.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/bit/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/Bit.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/bitbreakerandringgauge/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/BitBreakerandRingGauge.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/screen/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/Screen.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/tools/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/Tools.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/xo/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/Xo.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/warehouse/casinghead/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/AddItem/Casinghead.vue')
   },
   // Wellpad section
   {
@@ -252,6 +325,87 @@ const routes = [
     name: 'Casing Head',
     component: () => import(/* webpackChunkName: "client-form" */ '../views/Wellpad/Casinghead.vue'),
     props: true
+  },
+  // This is the section of Add Item of Wellpad list
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/casing/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/Casing.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/casingaccesories/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/CasingAccesories.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/others/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/Others.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/wellhead/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/Wellhead.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/bit/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/Bit.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/bitbreakerandringgauge/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/BitBreakerandRingGauge.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/screen/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/Screen.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/tools/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/Tools.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/xo/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/Xo.vue')
+  },
+  {
+    meta: {
+      title: 'Add Item'
+    },
+    path: '/wellpad/casinghead/additem',
+    name: 'add item',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/AddItem/Casinghead.vue')
   }
 ]
 

@@ -38,10 +38,10 @@
       <b-table-column label="Prewelded Casing Connection" field="prewelded_casing_connection" sortable v-slot="props">
         {{ props.row.prewelded_casing_connection }}
       </b-table-column>
-      <b-table-column label="length of prewelded casing" field="length_of_prewelded_casing" sortable v-slot="props">
+      <b-table-column label="Length of Prewelded Casing" field="length_of_prewelded_casing" sortable v-slot="props">
         {{ props.row.length_of_prewelded_casing }}
       </b-table-column>
-      <b-table-column label="remarks" field="remarks" sortable v-slot="props">
+      <b-table-column label="Remarks" field="remarks" sortable v-slot="props">
         {{ props.row.remarks }}
       </b-table-column>
     </b-table>

@@ -40,6 +40,11 @@
               </div>
             </div>
           </div>
+          <router-link to="/warehouse/wellhead/additem">
+          <div class="navbar-item">
+            <button class="button is-primary">Add item</button>
+          </div>
+        </router-link>
         </div>
       </div>
     </nav>

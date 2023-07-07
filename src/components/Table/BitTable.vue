@@ -38,16 +38,16 @@
       <b-table-column label="Rock Bit or Mill tooth" field="rock_bit_or_mill_tooth" sortable v-slot="props">
         {{ props.row.rock_bit_or_mill_tooth }}
       </b-table-column>
-      <b-table-column label="nozzle information" field="nozzle_information" sortable v-slot="props">
+      <b-table-column label="Nozzle Information" field="nozzle_information" sortable v-slot="props">
         {{ props.row.nozzle_information }}
       </b-table-column>
-      <b-table-column label="remarks" field="remarks" sortable v-slot="props">
+      <b-table-column label="Remarks" field="remarks" sortable v-slot="props">
         {{ props.row.remarks }}
       </b-table-column>
-      <b-table-column label="new or used" field="new_or_used" sortable v-slot="props">
+      <b-table-column label="New or Used" field="new_or_used" sortable v-slot="props">
         {{ props.row.new_or_used }}
       </b-table-column>
-      <b-table-column label="serial number" field="serial_number" sortable v-slot="props">
+      <b-table-column label="Serial Number" field="serial_number" sortable v-slot="props">
         {{ props.row.serial_number }}
       </b-table-column>
     </b-table>

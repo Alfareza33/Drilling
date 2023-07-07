@@ -29,7 +29,7 @@
       <b-table-column label="Manufacturer" field="manufacturer" sortable v-slot="props">
         {{ props.row.manufacturer }}
       </b-table-column>
-      <b-table-column label="type" field="type" sortable v-slot="props">
+      <b-table-column label="Type" field="type" sortable v-slot="props">
         {{ props.row.type }}
       </b-table-column>
       <b-table-column label="Api" field="api" sortable v-slot="props">

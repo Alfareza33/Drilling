@@ -40,7 +40,7 @@
               </div>
             </div>
           </div>
-          <router-link to="/AddItem">
+          <router-link to="/wellpad/casing/additem">
           <div class="navbar-item">
             <button class="button is-primary">Add item</button>
           </div>

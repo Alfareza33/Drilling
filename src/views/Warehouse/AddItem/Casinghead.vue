@@ -7,33 +7,34 @@
           Add item
           </hero-bar>
           <br>
-          <b-field horizontal>
+          <b-field horizontal label="ID">
             <b-field>
-              <b-input v-model="form.name" placeholder="Size" name="firstname" required />
+              <b-input placeholder="ID" name="id" required />
             </b-field>
           </b-field>
-          <b-field horizontal>
-            <b-field>
-              <b-input placeholder="Grade" name="lastname" required />
-            </b-field>
+          <b-field horizontal label="Sub Category">
+            <b-input placeholder="Sub Category" v-model="form.subject" required />
           </b-field>
-          <b-field horizontal>
-            <b-input placeholder="Pounder" v-model="form.subject" required />
+          <b-field horizontal label="Casing head size">
+            <b-input placeholder="Casing head size" v-model="form.subject" required />
           </b-field>
-          <b-field horizontal>
-            <b-input placeholder="Blank or Perforated" v-model="form.subject" required />
+          <b-field horizontal label="Top Connection Type and Size">
+            <b-input placeholder="Top Connection Type and Size" v-model="form.subject" required />
           </b-field>
-          <b-field horizontal>
-            <b-input placeholder="Wellding" v-model="form.subject" required />
+          <b-field horizontal label="Bottom Connection Type and Size">
+            <b-input placeholder="Bottom Connection Type and Size" v-model="form.subject" required />
           </b-field>
-          <b-field horizontal>
-            <b-input placeholder="Range" v-model="form.subject" required />
+          <b-field horizontal label="Side Connection Type and Size">
+            <b-input placeholder="Side Connection Type and Size" v-model="form.subject" required />
           </b-field>
-          <b-field horizontal>
+          <b-field horizontal label="Prewelded Casing Connection">
+            <b-input placeholder="Prewelded Casing Connection" v-model="form.subject" required />
+          </b-field>
+          <b-field horizontal label="Length of Prewelded Casing">
+            <b-input placeholder="Length of Prewelded Casing" v-model="form.subject" required />
+          </b-field>
+          <b-field horizontal label="Remarks">
             <b-input placeholder="Remarks" v-model="form.subject" required />
-          </b-field>
-          <b-field horizontal>
-            <b-input placeholder="Connection" v-model="form.subject" required />
           </b-field>
           <div class="field is-horizontal">
         </div>
