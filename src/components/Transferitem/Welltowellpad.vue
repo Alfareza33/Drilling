@@ -2,7 +2,7 @@
 <section class="section is-main-section">
     <card-component>
       <hero-bar>
-        Well Pad to Warehouse
+        Well to Well Pad
       </hero-bar>
       <br>
       <form @submit.prevent="submit">

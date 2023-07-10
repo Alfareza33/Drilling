@@ -1,7 +1,7 @@
 <template>
   <div>
     <hero-bar>
-      Transfer item
+      Usage item
     </hero-bar>
     <button  class="button is-white is-medium" @click="component ='Welltowellpad'">WH to WP</button>
     <button  class="button is-white is-medium" @click="component ='Wellpadtowell'">WP to WH</button>
@@ -14,9 +14,9 @@
 
 <script>
 import HeroBar from '@/components/HeroBar'
-import Wellpadtowell from '@/components/Transferitem/Wellpadtowell'
-import Welltowellpad from '@/components/Transferitem/Welltowellpad'
-import History from '@/components/Transferitem/History'
+import Wellpadtowell from '@/components/Usageitem/Wellpadtowell'
+import Welltowellpad from '@/components/Usageitem/Welltowellpad'
+import History from '@/components/Usageitem/History'
 
 export default {
   name: 'Transfer item',

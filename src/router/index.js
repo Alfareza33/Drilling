@@ -49,11 +49,19 @@ const routes = [
   },
   {
     meta: {
-      title: 'Transferitem'
+      title: 'Transfer item'
     },
     path: '/transferitem',
     name: 'transferitem',
     component: () => import(/* webpackChunkName: "transactions" */ '../views/Transferitem.vue')
+  },
+  {
+    meta: {
+      title: 'Usage item'
+    },
+    path: '/usageitem',
+    name: 'usageitem',
+    component: () => import(/* webpackChunkName: "transactions" */ '../views/Usageitem.vue')
   },
   {
     meta: {

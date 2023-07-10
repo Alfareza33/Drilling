@@ -124,6 +124,11 @@ export default {
             to: '/transferitem',
             label: 'Transfer item',
             icon: 'currency-usd'
+          },
+          {
+            to: '/usageitem',
+            label: 'Usage item',
+            icon: 'currency-usd'
           }
         ]
       ]

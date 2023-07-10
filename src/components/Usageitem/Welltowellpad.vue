@@ -2,7 +2,7 @@
 <section class="section is-main-section">
     <card-component>
       <hero-bar>
-        Warehouse to Well Pad
+        Well to Well Pad
       </hero-bar>
       <br>
       <form @submit.prevent="submit">
@@ -16,16 +16,13 @@
             <b-input v-model="form.email" placeholder="Quantity" name="phone-number" required />
           </b-field>
         </b-field>
-        <b-field label="Source Location" horizontal>
-          <b-input placeholder="Source Location" v-model="form.subject" required />
-        </b-field>
-        <b-field label="Destination Location" horizontal>
-          <b-input placeholder="Destination Location" v-model="form.subject" required />
+        <b-field label="Wellpad Location" horizontal>
+          <b-input placeholder="Wellpad Location" v-model="form.subject" required />
         </b-field>
         <b-field horizontal>
           <b-field grouped>
             <div class="control">
-              <b-button native-type="submit" type="is-primary">Transfer</b-button>
+              <b-button native-type="submit" type="is-primary">Submit</b-button>
             </div>
           </b-field>
         </b-field>

@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import HistoryTable from '@/components/HistoryTable'
+import HistoryTable from '@/components/Transferitem/HistoryTable'
 import CardComponent from '@/components/CardComponent'
 
 export default {
