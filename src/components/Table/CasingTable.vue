@@ -12,7 +12,7 @@
       :data="clients">
       <b-table-column custom-key="actions" cell-class="is-actions-cell" v-slot="props">
         <div class="buttons is-left">
-          <router-link to="/warehouse/casing/edititem" class="button is-small is-primary">
+          <router-link :to="{name:'edit.casing', params: {id: props.row.id}}" class="button is-small is-primary">
             <b-icon icon="account-edit" size="is-small"/>
           </router-link>
           <button class="button is-small is-danger" type="button" @click.prevent="trashModal(props.row)">

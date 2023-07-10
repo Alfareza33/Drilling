@@ -248,81 +248,91 @@ const routes = [
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/casing/edititem',
-    name: 'add item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Casing.vue')
+    path: '/warehouse/casing/edititem/:id',
+    name: 'edit.casing',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Casing.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/casingaccesories/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/CasingAccesories.vue')
+    path: '/warehouse/casingaccesories/edititem/:id',
+    name: 'edit.casingaccesories',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/CasingAccesories.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/others/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Others.vue')
+    path: '/warehouse/others/edititem/:id',
+    name: 'edit.others',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Others.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/wellhead/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Wellhead.vue')
+    path: '/warehouse/wellhead/edititem/:id',
+    name: 'edit.wellhead',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Wellhead.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/bit/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Bit.vue')
+    path: '/warehouse/bit/edititem/:id',
+    name: 'edit.bit',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Bit.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/bitbreakerandringgauge/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/BitBreakerandRingGauge.vue')
+    path: '/warehouse/bitbreakerandringgauge/edititem/:id',
+    name: 'edit.bitbreakerandringgauge',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/BitBreakerandRingGauge.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/screen/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Screen.vue')
+    path: '/warehouse/screen/edititem/:id',
+    name: 'edit.screen',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Screen.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/tools/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Tools.vue')
+    path: '/warehouse/tools/edititem/:id',
+    name: 'edit.tools',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Tools.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/xo/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Xo.vue')
+    path: '/warehouse/xo/edititem/:id',
+    name: 'edit.xo',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Xo.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/warehouse/casinghead/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Casinghead.vue')
+    path: '/warehouse/casinghead/edititem/:id',
+    name: 'edit.casinghead',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Warehouse/EditItem/Casinghead.vue'),
+    props: true
   },
   // Wellpad section
   {
@@ -501,81 +511,91 @@ const routes = [
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/casing/edititem',
-    name: 'add item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Casing.vue')
+    path: '/wellpad/casing/edititem/:id',
+    name: 'edit.casing',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Casing.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/casingaccesories/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/CasingAccesories.vue')
+    path: '/wellpad/casingaccesories/edititem/:id',
+    name: 'edit.casingaccesories',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/CasingAccesories.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/others/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Others.vue')
+    path: '/wellpad/others/edititem/:id',
+    name: 'edit.others',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Others.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/wellhead/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Wellhead.vue')
+    path: '/wellpad/wellhead/edititem/:id',
+    name: 'edit.wellhead',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Wellhead.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/bit/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Bit.vue')
+    path: '/wellpad/bit/edititem/:id',
+    name: 'edit.bit',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Bit.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/bitbreakerandringgauge/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/BitBreakerandRingGauge.vue')
+    path: '/wellpad/bitbreakerandringgauge/edititem/:id',
+    name: 'edit.bitbreakerandringgauge',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/BitBreakerandRingGauge.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/screen/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Screen.vue')
+    path: '/wellpad/screen/edititem/:id',
+    name: 'edit.screen',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Screen.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/tools/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Tools.vue')
+    path: '/wellpad/tools/edititem/:id',
+    name: 'edit.tools',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Tools.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/xo/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Xo.vue')
+    path: '/wellpad/xo/edititem/:id',
+    name: 'edit.xo',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Xo.vue'),
+    props: true
   },
   {
     meta: {
       title: 'Edit Item'
     },
-    path: '/wellpad/casinghead/edititem',
-    name: 'edit item',
-    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Casinghead.vue')
+    path: '/wellpad/casinghead/edititem/:id',
+    name: 'edit.casinghead',
+    component: () => import(/* webpackChunkName: "forms" */ '../views/Wellpad/EditItem/Casinghead.vue'),
+    props: true
   }
 ]
 
