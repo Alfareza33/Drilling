@@ -4,7 +4,7 @@
       <card-component>
         <form @submit.prevent="submit">
           <hero-bar>
-          Add item
+          Edit item
           </hero-bar>
           <br>
           <b-field horizontal label="Size">
