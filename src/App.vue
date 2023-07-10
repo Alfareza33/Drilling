@@ -128,7 +128,7 @@ export default {
           {
             to: '/usageitem',
             label: 'Usage item',
-            icon: 'currency-usd'
+            icon: 'tools'
           }
         ]
       ]
